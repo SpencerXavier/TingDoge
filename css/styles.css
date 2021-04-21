@@ -1,0 +1,157 @@
+body{
+  font-family: "Montserrat";
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p{
+  color:#8f8f8f;
+}
+/*title*/
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: left;
+}
+#title.container-fluid{
+  padding: 3% 15% 7%;   /* 同一個div or section 的間隔*/
+}
+
+/*heading*/
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*sections*/
+
+
+
+
+/* Navigation bar*/
+.container-fluid{
+  padding: 7% 15%;   /* 同一個div or section 的間隔*/
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family:"Ubuntu";
+  font-weight:bold;
+}
+.navbar{
+  padding-bottom:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+/* Download buttom */
+.download-buttom{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image*/
+.title-image{
+  width:20%;/* 由於捨棄html框架,圖片大小不再受到div的限制,只管img tag*/
+  transform: rotate(25deg);
+  position: absolute; /*捨棄html 框架，相對parent class, 此為相對整個頁面*/
+  right:30%;
+}
+
+/* icon-image*/
+.feature-box{
+  padding: 4.5%;
+  text-align: center;
+}
+.icon-image{
+  width:100%;
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+.icon-image:hover{
+  color:#ff4c68;
+}
+
+
+#features{
+  background-color:#fff;
+  position: relative;  /*捨棄html 框架，相對static,default*/
+  z-index: 1;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/*-- Testimonials --> */
+#testimonials{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonials-image{
+  border-radius: 100%;
+}
+
+
+
+/*<!-- Press -->*/
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;/*上 左右 下*/
+}
+/*  <!-- Pricing -->*/
+#pricing{
+  text-align:center;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+  .title-image{
+    position: static;
+    text-align: center;
+    transform: rotate(0);
+  }
+}
+
+/* <!-- CTA -->*/
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.cta-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*<!-- Footer -->*/
+#footer{
+  text-align: center;
+}
